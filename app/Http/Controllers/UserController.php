@@ -13,7 +13,7 @@ class UserController extends Controller
         // return $reg->input();
         $user = User::where(['email'=>$reg->email])->first();
         // return $user->password; 
-        if(!$user || Hash::check($reg->password,$user->password)) {
+        if(!$user || !Hash::check($reg->password,$user->password)) {
             return "Username or password is not matched";
         }else{
             $reg->session()->put('user',$user);

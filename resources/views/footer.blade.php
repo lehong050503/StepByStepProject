@@ -1,1 +1,1 @@
-<h1>Đây là footer</h1>
+<h1 style="clear: both; text-align:center;">Đây là footer</h1>
