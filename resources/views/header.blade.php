@@ -47,7 +47,7 @@ if(Session::has('user')){
           
         <ul class="navbar-nav" style="margin-right:50px">
           
-          <a class="navbar-brand" href="#" style="margin-left:30px">Cart({{$total}})</a>
+          <a class="navbar-brand" href="/cartlist" style="margin-left:30px">Cart({{$total}})</a>
           @if (Session::has('user'))
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">

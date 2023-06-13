@@ -13,7 +13,8 @@
         background: #2f897a78;
       }
       .trending-img{
-        height: 200px;
+        height: 300px;
+        width: 300px;
       }
       .trending-item{
         float: left;
