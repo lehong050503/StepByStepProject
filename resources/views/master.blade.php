@@ -23,6 +23,18 @@
       .detail-img{
         height: 200px;
       }
+      .button{
+        display: flex;
+        align-items: center;
+      }
+      .dess{
+        display: flex;
+        align-items: center;
+      }
+      .item{
+        border-bottom: 1px solid #cccccc;
+        margin-bottom: 30px;
+      }
     </style>
   </head>
   <body>
