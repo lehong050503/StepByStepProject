@@ -32,8 +32,13 @@
         align-items: center;
       }
       .item{
-        border-bottom: 1px solid #cccccc;
-        margin-bottom: 30px;
+        border: 1px solid #cccccc;
+        margin: 50px;
+        padding: 50px;
+      }
+      .nutMua{
+        margin: 50px;
+        text-align: center;
       }
     </style>
   </head>
