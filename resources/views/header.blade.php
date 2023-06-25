@@ -31,6 +31,7 @@ if(Session::has('user')){
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/login">Login</a>
           </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="/myOrder">Order</a>
           </li>
@@ -58,7 +59,10 @@ if(Session::has('user')){
             </ul>
           </li>
           @else
+          
             <li><a class="navbar-brand" href="/login">Log In</a></li>
+            <li><a class="navbar-brand" href="/register">Register</a></li>
+            
           @endif
         </ul>
 
