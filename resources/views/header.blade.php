@@ -32,11 +32,11 @@ if(Session::has('user')){
             <a class="nav-link" aria-current="page" href="/login">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="/myOrder">Order</a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link">Contact us</a>
-          </li>
+          </li> --}}
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
